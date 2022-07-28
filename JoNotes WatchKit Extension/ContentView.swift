@@ -8,10 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+
+//        NavigationView{
+            
+        VStack(alignment: .center){
+                    NavigationLink( destination: {
+                        AddNote()
+                    }, label: {
+                        Text("ADD NOTE")
+                    })
+                    
+                    NavigationLink( destination: {
+                        ListNotes()
+                    }, label: {
+                        Text("LIST NOTES")
+                    })
+                    
+                    
+            }.navigationTitle("NotesApp")
+        
+//        }
+        
+        
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

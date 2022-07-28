@@ -15,6 +15,11 @@
 		8223CAFE2892237B00CE6E61 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8223CAFD2892237B00CE6E61 /* ComplicationController.swift */; };
 		8223CB002892237D00CE6E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8223CAFF2892237D00CE6E61 /* Assets.xcassets */; };
 		8223CB032892237D00CE6E61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8223CB022892237D00CE6E61 /* Preview Assets.xcassets */; };
+		8223CB13289223DB00CE6E61 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8223CB12289223DB00CE6E61 /* Note.swift */; };
+		8223CB172892256000CE6E61 /* AddNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8223CB162892256000CE6E61 /* AddNote.swift */; };
+		8223CB1928922E7600CE6E61 /* ListNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8223CB1828922E7600CE6E61 /* ListNotes.swift */; };
+		8223CB1B2892300E00CE6E61 /* DetailNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8223CB1A2892300E00CE6E61 /* DetailNote.swift */; };
+		82CBEDAA2893150100FF0B94 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CBEDA92893150100FF0B94 /* Tools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +75,11 @@
 		8223CAFF2892237D00CE6E61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8223CB022892237D00CE6E61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8223CB042892237D00CE6E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8223CB12289223DB00CE6E61 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		8223CB162892256000CE6E61 /* AddNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNote.swift; sourceTree = "<group>"; };
+		8223CB1828922E7600CE6E61 /* ListNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNotes.swift; sourceTree = "<group>"; };
+		8223CB1A2892300E00CE6E61 /* DetailNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNote.swift; sourceTree = "<group>"; };
+		82CBEDA92893150100FF0B94 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +96,11 @@
 		8223CADE2892237300CE6E61 = {
 			isa = PBXGroup;
 			children = (
+				82CBEDA92893150100FF0B94 /* Tools.swift */,
+				8223CB1A2892300E00CE6E61 /* DetailNote.swift */,
+				8223CB1828922E7600CE6E61 /* ListNotes.swift */,
+				8223CB162892256000CE6E61 /* AddNote.swift */,
+				8223CB12289223DB00CE6E61 /* Note.swift */,
 				8223CAED2892237400CE6E61 /* JoNotes WatchKit App */,
 				8223CAF82892237B00CE6E61 /* JoNotes WatchKit Extension */,
 				8223CAE62892237300CE6E61 /* Products */,
@@ -258,9 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8223CB172892256000CE6E61 /* AddNote.swift in Sources */,
 				8223CAFC2892237B00CE6E61 /* JoNotesApp.swift in Sources */,
 				8223CAFA2892237B00CE6E61 /* ContentView.swift in Sources */,
 				8223CAFE2892237B00CE6E61 /* ComplicationController.swift in Sources */,
+				8223CB1B2892300E00CE6E61 /* DetailNote.swift in Sources */,
+				8223CB13289223DB00CE6E61 /* Note.swift in Sources */,
+				8223CB1928922E7600CE6E61 /* ListNotes.swift in Sources */,
+				82CBEDAA2893150100FF0B94 /* Tools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
