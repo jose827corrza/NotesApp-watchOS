@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8223CAEA2892237400CE6E61 /* JoNotes WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8223CAE92892237400CE6E61 /* JoNotes WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8223CAEF2892237B00CE6E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8223CAEE2892237B00CE6E61 /* Assets.xcassets */; };
+		8223CAF52892237B00CE6E61 /* JoNotes WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8223CAF42892237B00CE6E61 /* JoNotes WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8223CAFA2892237B00CE6E61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8223CAF92892237B00CE6E61 /* ContentView.swift */; };
+		8223CAFC2892237B00CE6E61 /* JoNotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8223CAFB2892237B00CE6E61 /* JoNotesApp.swift */; };
+		8223CAFE2892237B00CE6E61 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8223CAFD2892237B00CE6E61 /* ComplicationController.swift */; };
+		8223CB002892237D00CE6E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8223CAFF2892237D00CE6E61 /* Assets.xcassets */; };
+		8223CB032892237D00CE6E61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8223CB022892237D00CE6E61 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8223CAEB2892237400CE6E61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8223CADF2892237300CE6E61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8223CAE82892237400CE6E61;
+			remoteInfo = "JoNotes WatchKit App";
+		};
+		8223CAF62892237B00CE6E61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8223CADF2892237300CE6E61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8223CAF32892237B00CE6E61;
+			remoteInfo = "JoNotes WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8223CB0A2892237D00CE6E61 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8223CAF52892237B00CE6E61 /* JoNotes WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8223CB0E2892237D00CE6E61 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8223CAEA2892237400CE6E61 /* JoNotes WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8223CAE52892237300CE6E61 /* JoNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8223CAE92892237400CE6E61 /* JoNotes WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JoNotes WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8223CAEE2892237B00CE6E61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8223CAF42892237B00CE6E61 /* JoNotes WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "JoNotes WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8223CAF92892237B00CE6E61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8223CAFB2892237B00CE6E61 /* JoNotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoNotesApp.swift; sourceTree = "<group>"; };
+		8223CAFD2892237B00CE6E61 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		8223CAFF2892237D00CE6E61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8223CB022892237D00CE6E61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8223CB042892237D00CE6E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8223CAF12892237B00CE6E61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8223CADE2892237300CE6E61 = {
+			isa = PBXGroup;
+			children = (
+				8223CAED2892237400CE6E61 /* JoNotes WatchKit App */,
+				8223CAF82892237B00CE6E61 /* JoNotes WatchKit Extension */,
+				8223CAE62892237300CE6E61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8223CAE62892237300CE6E61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8223CAE52892237300CE6E61 /* JoNotes.app */,
+				8223CAE92892237400CE6E61 /* JoNotes WatchKit App.app */,
+				8223CAF42892237B00CE6E61 /* JoNotes WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8223CAED2892237400CE6E61 /* JoNotes WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				8223CAEE2892237B00CE6E61 /* Assets.xcassets */,
+			);
+			path = "JoNotes WatchKit App";
+			sourceTree = "<group>";
+		};
+		8223CAF82892237B00CE6E61 /* JoNotes WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8223CAF92892237B00CE6E61 /* ContentView.swift */,
+				8223CAFB2892237B00CE6E61 /* JoNotesApp.swift */,
+				8223CAFD2892237B00CE6E61 /* ComplicationController.swift */,
+				8223CAFF2892237D00CE6E61 /* Assets.xcassets */,
+				8223CB042892237D00CE6E61 /* Info.plist */,
+				8223CB012892237D00CE6E61 /* Preview Content */,
+			);
+			path = "JoNotes WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		8223CB012892237D00CE6E61 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8223CB022892237D00CE6E61 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8223CAE42892237300CE6E61 /* JoNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8223CB0F2892237D00CE6E61 /* Build configuration list for PBXNativeTarget "JoNotes" */;
+			buildPhases = (
+				8223CAE32892237300CE6E61 /* Resources */,
+				8223CB0E2892237D00CE6E61 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8223CAEC2892237400CE6E61 /* PBXTargetDependency */,
+			);
+			name = JoNotes;
+			productName = JoNotes;
+			productReference = 8223CAE52892237300CE6E61 /* JoNotes.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		8223CAE82892237400CE6E61 /* JoNotes WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8223CB0B2892237D00CE6E61 /* Build configuration list for PBXNativeTarget "JoNotes WatchKit App" */;
+			buildPhases = (
+				8223CAE72892237400CE6E61 /* Resources */,
+				8223CB0A2892237D00CE6E61 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8223CAF72892237B00CE6E61 /* PBXTargetDependency */,
+			);
+			name = "JoNotes WatchKit App";
+			productName = "JoNotes WatchKit App";
+			productReference = 8223CAE92892237400CE6E61 /* JoNotes WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8223CAF32892237B00CE6E61 /* JoNotes WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8223CB072892237D00CE6E61 /* Build configuration list for PBXNativeTarget "JoNotes WatchKit Extension" */;
+			buildPhases = (
+				8223CAF02892237B00CE6E61 /* Sources */,
+				8223CAF12892237B00CE6E61 /* Frameworks */,
+				8223CAF22892237B00CE6E61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JoNotes WatchKit Extension";
+			productName = "JoNotes WatchKit Extension";
+			productReference = 8223CAF42892237B00CE6E61 /* JoNotes WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8223CADF2892237300CE6E61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					8223CAE42892237300CE6E61 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					8223CAE82892237400CE6E61 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					8223CAF32892237B00CE6E61 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 8223CAE22892237300CE6E61 /* Build configuration list for PBXProject "JoNotes" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8223CADE2892237300CE6E61;
+			productRefGroup = 8223CAE62892237300CE6E61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8223CAE42892237300CE6E61 /* JoNotes */,
+				8223CAE82892237400CE6E61 /* JoNotes WatchKit App */,
+				8223CAF32892237B00CE6E61 /* JoNotes WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8223CAE32892237300CE6E61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8223CAE72892237400CE6E61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8223CAEF2892237B00CE6E61 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8223CAF22892237B00CE6E61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8223CB032892237D00CE6E61 /* Preview Assets.xcassets in Resources */,
+				8223CB002892237D00CE6E61 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8223CAF02892237B00CE6E61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8223CAFC2892237B00CE6E61 /* JoNotesApp.swift in Sources */,
+				8223CAFA2892237B00CE6E61 /* ContentView.swift in Sources */,
+				8223CAFE2892237B00CE6E61 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8223CAEC2892237400CE6E61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8223CAE82892237400CE6E61 /* JoNotes WatchKit App */;
+			targetProxy = 8223CAEB2892237400CE6E61 /* PBXContainerItemProxy */;
+		};
+		8223CAF72892237B00CE6E61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8223CAF32892237B00CE6E61 /* JoNotes WatchKit Extension */;
+			targetProxy = 8223CAF62892237B00CE6E61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8223CB052892237D00CE6E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8223CB062892237D00CE6E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8223CB082892237D00CE6E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JoNotes WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = ZQ6T88LCH8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "JoNotes WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "JoNotes WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joseDev.JoNotes.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		8223CB092892237D00CE6E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JoNotes WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = ZQ6T88LCH8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "JoNotes WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "JoNotes WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joseDev.JoNotes.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		8223CB0C2892237D00CE6E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZQ6T88LCH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = JoNotes_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "JoNotes WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joseDev.JoNotes.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		8223CB0D2892237D00CE6E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZQ6T88LCH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = JoNotes_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "JoNotes WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joseDev.JoNotes.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		8223CB102892237D00CE6E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZQ6T88LCH8;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joseDev.JoNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8223CB112892237D00CE6E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZQ6T88LCH8;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joseDev.JoNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8223CAE22892237300CE6E61 /* Build configuration list for PBXProject "JoNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8223CB052892237D00CE6E61 /* Debug */,
+				8223CB062892237D00CE6E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8223CB072892237D00CE6E61 /* Build configuration list for PBXNativeTarget "JoNotes WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8223CB082892237D00CE6E61 /* Debug */,
+				8223CB092892237D00CE6E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8223CB0B2892237D00CE6E61 /* Build configuration list for PBXNativeTarget "JoNotes WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8223CB0C2892237D00CE6E61 /* Debug */,
+				8223CB0D2892237D00CE6E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8223CB0F2892237D00CE6E61 /* Build configuration list for PBXNativeTarget "JoNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8223CB102892237D00CE6E61 /* Debug */,
+				8223CB112892237D00CE6E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8223CADF2892237300CE6E61 /* Project object */;
+}
